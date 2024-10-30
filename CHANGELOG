@@ -1,0 +1,32 @@
+# CHANGELOG
+
+## 0.3.4 (Dec 9, 2021)
+- Dev: Improvements to consistency of releases
+
+## 0.3.3 (Oct 27, 2021)
+- Fix: Prevents 403 message when product variations have been altered
+- Fix: Correctly aligns 'Brenger' label on product variations
+- Dev: Updates composer dependencies
+
+## 0.3.2 (Sep 9, 2021)
+- Fix: Shipping classes selector works in shipping method settings
+- Enhancement: Possible error messages are now logged to the WooCommerce logger
+
+## 0.3.1 (Jul 29, 2021)
+- Fix: Prevented fatal error on PHP 7.2 by use of array_key_last
+
+## 0.3.0 (Jul 21, 2021)
+- Feature: Show shipping date and shipped by details for transport on order page
+- Fix: Shipping details now showing for all transport statuses
+
+## 0.2.0 (Jul 8, 2021)
+- Feature: Adds field to determine the shipping costs, default to 85
+- Feature: Tracking link is now also displayed on transports overview
+- Feature: Transport status is checked on a regular basis via scheduled actions
+- Feature: Setting to override the API url being used
+- Enhancement: Custom display of transport details on order page
+- Enhancement: Shipping specific dimension fields now use WooCommerce dimension fields as fallback
+- Enhancement: Better error reporting, detailing specifcs about error messages
+
+## 0.1.0 (Jun 10, 2021)
+- Initial release for testing purposes
